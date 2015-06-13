@@ -1,0 +1,35 @@
+body { padding: 10px; }
+
+dl { border: 3px double #ccc; padding: 0.5em; } 
+dt { float: left; clear: left; width: 200px; text-align: right; font-weight: bold; color: green; } 
+dd { margin: 0 0 0 210px; padding: 0 0 0.5em 0;  }
+dd input { width:70px !important; }
+
+#form {
+	width:800px;
+}
+.quadrant {
+	width:45%;
+	float: left;
+	border: 2px solid red;
+	margin: 5px;
+}
+
+.repeats {
+	color:red;
+}
+
+#counter {
+	border:1px solid #999;
+	background: #eee;
+	width:150px;
+	padding:5px;
+	margin: 0;
+	list-style: none;
+}
+.count {
+	color: green;
+}
+.over {
+	color: red;
+}
