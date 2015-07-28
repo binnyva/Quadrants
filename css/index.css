@@ -33,3 +33,6 @@ dd input { width:70px !important; }
 .over {
 	color: red;
 }
+.total {
+	color: brown;
+}

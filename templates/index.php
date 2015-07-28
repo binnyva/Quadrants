@@ -10,7 +10,7 @@
 <p>After you have scored items, we'll give you the total scores for each quadrant.</p>
 
 <form action="save.php" method="post">
-<input type="input" placeholder="Name..." name="name" />
+<input type="input" placeholder="Name..." id="name" name="name" value="<?php echo (isset($name) ? $name : ''); ?>" />
 
 <ul id="counter">
 <li><strong>0</strong> shows up <strong id="count-0" class="over count">24</strong> times</li>
@@ -32,7 +32,7 @@
 <dd><input type="number" id="score_<?php echo $q['id'] ?>" name="score[<?php echo $q['id'] ?>]" class="score question-score question-<?php echo strtolower($q_name); 
 ?>" min="0" max="5" size="2" value="<?php echo (!empty($answers[$q['id']])) ? $answers[$q['id']] : '0'; ?>" /></dd>
 <?php } ?>
-<dt>Total</dt>
+<dt class="total">Total</dt>
 <dd><input type="number" id="score-<?php echo strtolower($q_name); ?>" class="score total-score" min="0" readonly size="2" value="0" /></dd>
 
 </ul>

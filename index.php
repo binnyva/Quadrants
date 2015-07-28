@@ -9,6 +9,7 @@ $quads = array(
 );
 
 if(!empty($_REQUEST['user_id'])) {
+	$name = $sql->getOne("SELECT name FROM User WHERE id=$_REQUEST[user_id]");
 	$answers = $sql->getById("SELECT question_id,value FROM Answer WHERE user_id=$_REQUEST[user_id]");
 }
 
