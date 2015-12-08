@@ -11,4 +11,4 @@ foreach ($_REQUEST['score'] as $question_id => $value) {
 		));
 }
 
-print "Data Saved.";
+header("Location: index.php?user_id=" . $user_id . "&success=Data+Saved");
