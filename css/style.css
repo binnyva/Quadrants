@@ -28,6 +28,10 @@ img {
 	border:0;
 }
 
+#content {
+	margin-top: 50px;
+}
+
 #loading {
 	position:fixed;
 	background-color:#f00;

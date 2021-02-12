@@ -1,6 +1,6 @@
 <h1>Benziger Thinking Styles Assessment</h1>
 
-<p>This is a tool to find your preffered thinking process according to the <a href="https://www.businessballs.com/self-awareness/personality-theories-and-types/#-katherine-benzigers-personality-and-brain-type-theory">Katherine Benziger's Personality and Brain-Type Theory</a>. You can find more details about the model <a href="https://www.businessballs.com/self-awareness/benziger-personality-assessment/">here</a>.</p>
+<p class="lead">This is a tool to find your preffered thinking process according to the <a href="https://www.businessballs.com/self-awareness/personality-theories-and-types/#-katherine-benzigers-personality-and-brain-type-theory">Katherine Benziger's Personality and Brain-Type Theory</a>. You can find more details about the model <a href="https://www.businessballs.com/self-awareness/benziger-personality-assessment/">here</a>.</p>
 
 <p>Take a look at all the discriptions below. Give each description a mark out of 5</p>
 
